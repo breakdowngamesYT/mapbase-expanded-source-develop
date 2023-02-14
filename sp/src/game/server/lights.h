@@ -45,13 +45,4 @@ private:
 	char	m_iTargetFade;
 };
 
-class CEnvLight : public CLight
-{
-public:
-	DECLARE_CLASS(CEnvLight, CLight);
-
-	bool	KeyValue(const char* szKeyName, const char* szValue);
-	void	Spawn(void);
-};
-
 #endif // LIGHTS_H
